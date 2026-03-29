@@ -7,6 +7,8 @@ import (
 func main() {
 	var nome string
 	var nr int
+
+	fmt.Println("Qual é o seu nome?")
 	fmt.Scan(&nome)
 
 	fmt.Println("olá:", nome, "tenho ", nr)
@@ -19,10 +21,10 @@ func main() {
 	fmt.Scan(&nr)
 	if nr >= 4 {
 		fmt.Println("Okay")
-	}
-	for res := 0; res <= nr; res++ {
-		s := res * nr
-		fmt.Println(res, "x", nr, "=", s)
+		for res := 0; res <= nr; res++ {
+			s := res * nr
+			fmt.Println(res, "x", nr, "=", s)
+		}
 	}
 
 }
