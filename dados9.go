@@ -17,9 +17,12 @@ func main() {
 	}
 
 	fmt.Scan(&nr)
+	if nr >= 4 {
+		fmt.Println("Okay")
+	}
 	for res := 0; res <= nr; res++ {
 		s := res * nr
 		fmt.Println(res, "x", nr, "=", s)
 	}
-	
+
 }
