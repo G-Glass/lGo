@@ -15,4 +15,5 @@ func main() {
 	fmt.Scan(&senha)
 
 	fmt.Printf("Nome: %s \n Senha: %d", nome, senha)
+	
 }
