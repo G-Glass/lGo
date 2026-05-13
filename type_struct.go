@@ -25,6 +25,7 @@ func main() {
 	fmt.Scan(&client2)
 
 	aleatorio(client1, client2)
+	
 
 	fmt.Println("Funcionando em LiteIDE")
 }
